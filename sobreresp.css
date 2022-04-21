@@ -1,0 +1,21 @@
+@media (max-width: 691px) {
+    #sobre {
+        flex-direction: column;
+    }
+    #sobre P {
+        width: 20rem;
+        margin-bottom: 25px;
+    }
+}
+
+@media (min-width: 1025px) {
+    #sobre div p {
+        width: 20rem;
+    }
+}
+
+@media (max-width: 298px) {
+    #sobre p {
+        width: 15rem;
+    }
+}

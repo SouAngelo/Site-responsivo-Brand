@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* cabeçalho */
+
+header {
+    background-image: linear-gradient(-90deg, #4a274d, #9b318d);
+    padding: 40px 80px 0 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    background-image: linear-gradient(-95deg, #1919da, #202020);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+}
+
+header div {
+    margin: auto;
+    margin-left: 0;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 20px;
+    padding: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* inicio */
+
+#inicio {
+    background-image: linear-gradient(-90deg, #4a274d, #9b318d);
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 80px;
+}
+
+#inicio div {
+    width: 700px;
+    padding-right: 80px;
+}
+
+#inicio img {
+    width: 370px;
+    height: 370px;
+}
+
+#inicio div h1 {
+    font-size: 2.4rem;
+    padding: 20px 0;
+    color: #fff;
+}
+
+#inicio p {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+#inicio button {
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    background-image: linear-gradient(-95deg, #331cb6, #2f285a);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.5 ease;
+    cursor: pointer;
+}
+
+#inicio button:hover {
+    background-image: linear-gradient(-95deg, #251e4e, #6250d4);
+}
+
+
+/* sobre */
+
+#sobre {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    margin-top: -1px;
+}
+
+#sobre div h1 {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #2f285a;
+}
+
+#sobre div p {
+    color: #2f285a;
+}
+
+
+/* junte-se */
+
+.junte-se {
+    height: 100%;
+    background-image: linear-gradient(-90deg, #4a274d, #9b318d);
+    padding: 120px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.junte-se h1 {
+    color: #fff;
+    font-size: 2.4rem;
+    margin-bottom: 40px;
+}
+
+.junte-se img {
+    margin-left: 80px;
+    width: 378px;
+    height: 325px;
+}
+
+.junte-se form {
+    background-color: #fff;
+    padding: 40px 40px;
+    border-radius: 15px;
+    width: 350px;
+    margin-top: -20px;
+    height: 460px;
+}
+
+.junte-se div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.junte-se input {
+    width: 270px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid rgb(177, 176, 184);
+}
+
+.junte-se label {
+    font-size: 18px;
+    color: #4a274d;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.junte-se input::placeholder {
+    font-size: 14px;
+}
+
+.junte-se button {
+    width: 270px;
+    height: 55px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    background-image: linear-gradient(-90deg, #4a274d, #9b318d);
+    border: none;
+    border-radius: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.5 ease;
+}
+
+.junte-se button:hover {
+    background-image: linear-gradient(-90deg, #9b318d, #4a274d);
+}
+
+
+/* footer */
+
+footer {
+    height: 80px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    font-size: 20px;
+    color: #251e4e;
+}
+
+.btn {
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+
+/* Menu Hamburguer */
+
+@media (max-width: 600px) {
+    .btn {
+        display: block;
+    }
+    ul {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background: #491e4d;
+        top: 90px;
+        left: -100%;
+        transition: all .5s;
+        text-align: center;
+    }
+    nav ul {
+        display: block;
+        padding: 50px 0;
+    }
+    nav ul li {
+        margin: 50px 0;
+        line-height: 30px;
+        padding: 20px 0;
+    }
+    nav ul li a {
+        font-size: 30px;
+        transition: .5s;
+    }
+    a:active,
+    a:hover {
+        color: #331cb6;
+    }
+    header {
+        display: flex;
+        padding: 10px 20px;
+    }
+    header div {
+        padding: 0 20px;
+    }
+    #nav.active #menu {
+        left: 0;
+    }
+}

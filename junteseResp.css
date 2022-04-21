@@ -1,0 +1,42 @@
+  @media (max-width: 938px) {
+      .junte-se h1 {
+          text-align: center;
+      }
+      .junte-se img {
+          padding-right: 40px;
+      }
+      .junte-se form {
+          margin-right: 10px;
+      }
+  }
+  
+  @media (max-width: 805px) {
+      .junte-se h1 {
+          display: none;
+      }
+  }
+  
+  @media (max-width: 805px) {
+      .junte-se img {
+          display: none;
+      }
+      .junte-se {
+          justify-content: center;
+      }
+      .junte-se form {
+          margin-right: 0;
+          margin-left: 0;
+      }
+  }
+  
+  @media (max-width: 452px) {
+      .junte-se form {
+          width: 100%;
+      }
+      .junte-se input {
+          width: 100%;
+      }
+      .junte-se button {
+          width: 100%;
+      }
+  }
