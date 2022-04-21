@@ -1,4 +1,3 @@
-# LandingPage Responsiva
 ## 🔗 Sobre o Projeto
 
 https://landingpage-souangelo.netlify.app/
@@ -10,16 +9,18 @@ Este site tem como objetivo capturar leeds para uma empresa de ensino fictícia.
 
 ## 📱 Layout para Celular
 <br>
-<img src="./img/Screenshot_1.png"/>
-<img src="./img/Screenshot_2.png"/>
-<img src="./img/Screenshot_3.png"/>
-<img src="./img/Screenshot_4.png"/>
+<img src="./assets/images/Screenshot_1.png"/>
+<img src="./assets/images/Screenshot_2.png"/>
+<img src="./assets/images/Screenshot_3.png"/>
+<img src="./assets/images/Screenshot_4.png"/>
 <br>
 
 ## 💻 Layout para Web
 <br>
 
-<img src="./img/desktop.png"/><img src="./img/desktop2.png"/><img src="./img/desktop3.png"/>
+<img src="./assets/images/desktop.png"/>
+<img src="./assets/images/desktop2.png"/>
+<img src="./assets/images/desktop3.png"/>
 <br>
 
 ## 🧑‍💻 Tecnologias utilizadas
